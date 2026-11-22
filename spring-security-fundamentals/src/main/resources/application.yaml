@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-security-fundamentals
+
+server:
+  port: 8090
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    com.souvaniksaha.security: INFO
