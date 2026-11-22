@@ -2,10 +2,7 @@ package com.souvaniksaha.spring_security_fundamentals.controller;
 
 import com.souvaniksaha.spring_security_fundamentals.dto.response.ApiResponse;
 import com.souvaniksaha.spring_security_fundamentals.dto.response.EmployeeResponse;
-import com.souvaniksaha.spring_security_fundamentals.model.Employee;
 import com.souvaniksaha.spring_security_fundamentals.service.EmployeeService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
